@@ -1,5 +1,4 @@
 data "aws_security_group" "anna" {
-    id = "sg-0394822cb9d306ae8"
     filter {
       name = "tag:Name"
       values = [ "sg-pavan" ]
@@ -7,7 +6,7 @@ data "aws_security_group" "anna" {
   
 }
 
-data "aws_vpc" "dev" {
+data "aws_vpc" "anna" {
     filter {
       name = "tag:Name"
       values = [ "vpc-01" ]
@@ -15,8 +14,7 @@ data "aws_vpc" "dev" {
   
 }
 
-data "aws_subnet" "dev" {
-    id = "subnet-0ca62c13250d65e02"
+data "aws_subnet" "dev-01" {
     filter {
       name = "tag:Name"
       values = [ "subnet-01" ]

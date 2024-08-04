@@ -4,14 +4,12 @@ variable "ami_id" {
   
 }
 variable "instance_type" {
-     type = string
+    type = string
     default = ""
-  
   
 }
 variable "key_name" {
-     type = string
+    type = string
     default = ""
-  
   
 }

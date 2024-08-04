@@ -1,13 +1,13 @@
 variable "ami_id" {
     type = string
-    default = ""
+    default = "ami-0427090fd1714168b"
 }
 variable "instance_type" {
     type = string
-    default = ""
+    default = "t2.micro"
 }
 variable "key_name" {
     type = string
-    default = ""
+    default = "task"
   
 }

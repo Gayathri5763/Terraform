@@ -19,7 +19,7 @@ resource "aws_subnet" "dev-01" {
   cidr_block        = "10.0.1.0/24"
   availability_zone = "us-east-1a"
   tags = {
-    Name = "subnet-1"
+    Name = "subnet-01"
   }
 }
 

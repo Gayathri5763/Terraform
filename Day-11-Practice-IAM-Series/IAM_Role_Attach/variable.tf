@@ -20,7 +20,7 @@ variable "key_name" {
 }
 variable "role_name" {
     type = string
-    default = ""
+    default = "ec2"
   
 }
    

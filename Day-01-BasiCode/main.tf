@@ -1,7 +1,7 @@
 resource "aws_instance" "Gayathri" {
-    ami = "ami-0ae8f15ae66fe8cda"
+    ami = "ami-0a4408457f9a03be3"
     instance_type = "t2.micro"
-    key_name = "devsecops"
+    key_name = "jenkins"
     tags = {
       Name = "instance-01"
     }
